@@ -23,7 +23,7 @@ user_id = 'your feedly api id'
 access_token = 'your feedly api token'
 
 per_page = 1000   # for tag/ max is 500 other max is 1000
-# if don't using proxy, please set ptoxy = {}
+# if don't using proxy, please set proxy = {}
 proxy ={"http":"http://192.168.3.2:3128","https":"http://192.168.3.2:3128"}
 
 def get_saved_items(user_id, access_token):
