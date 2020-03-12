@@ -1,3 +1,13 @@
+# Change Log by wolf:
+  - @2020/3/12  
+    - using a while loop to save all of your saved articles.
+    - add proxy support.
+    - add Websrv.py for Pythonista user. (just run it)
+      - or you can using: python -m http.server 
+   
+# Feedly API document:
+  - https://developer.feedly.com/v3/streams/
+
 # bye-bye-feedly
 
 Export your read later *(formerly saved/favorited)* articles from [feedly](https://feedly.com), and access them from a simple reader.
